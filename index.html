@@ -13,42 +13,38 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    max-width: 630px;
+    margin: 0 auto;
   }
   
   .gallery > div {
-    border: 2px solid black;
-    padding: 20px;
-  }
-  
-   @media (max-width: 680px) {
-    .gallery {
-       grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-   @media (max-width: 320px) {
-    .gallery {
-       grid-template-columns: 1fr;
-    }
+    width: 300px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
   }
   
   .spotify-embeds {
-  	width: 500px;
-  	padding: 50px;  
+  	width: 400px;
+  	padding: 20px;  
 	}
 
 
 </style>
 
 <section class="gallery">
-	<div class="spotify-embeds">
-  <div class="spotify-embed">
-    <iframe src="https://open.spotify.com/embed/track/2sGFufjNzWIVBp5vRR7Sgm" width="100%" height="100%" frameborder="1" data-allowtransparency="true" allow="encrypted-media">
+	<div style="spotify-embeds">
+    <iframe src="https://open.spotify.com/embed/track/2sGFufjNzWIVBp5vRR7Sgm" width="100%" height="60%" frameborder="1" data-allowtransparency="true" allow="encrypted-media">
     </iframe>
   </div>
-    
-  	<iframe src="https://open.spotify.com/embed/track/0LZzGrLgxK8e0V6IoAQtd5" width="100%" height="100%" frameBorder="0" data-allowtransparency="true" allow="encrypted-media">
+  <div class="spotify-embed">
+    <iframe src="https://open.spotify.com/embed/track/0LZzGrLgxK8e0V6IoAQtd5" width="100%" height="60%" frameBorder="0" data-allowtransparency="true" allow="encrypted-media">
     </iframe>
+   </div>
+    <div class="spotify-embed">
+    <iframe src="https://open.spotify.com/embed/track/6It7eAXKK59k0skPxWNwP1" width="100%" height="60%" frameBorder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+   </div>
 	</div>
 </section>
 
