@@ -2,7 +2,6 @@
 <title>Home Page vs. Profile Experiment Project</title>
 <meta name="author" content="Anthony Khaiat">
 <h1></h1>
-<p></p>
 <style>
   @keyframes horizontal {
     0% {
@@ -13,16 +12,6 @@
       left: calc(100% - 360px);
     }
   }
-
-   @keyframes opposite {
-    0% {
-      right: -880px;
-    }
-
-    100% {
-      right: calc(50% - 360px);
-    }
-  } 
 
   h1.intro {
     color: rgb(0, 107, 255);
@@ -50,25 +39,8 @@
   }
   
   img {
-    width: 300px;
-    height: 300px;
-  }
-  
-  h2.intro {
-    color: white;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    top: -20px;
-    font-size: 30px;
-    font-family: monospace;
-     animation-name: opposite;
-    animation-delay: 0s, 2s;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
+    width: 250px;
+    height: 180px;
   }
 
   body {
@@ -82,14 +54,14 @@
   .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 15px;
     max-width: 1000px;
     margin: 0 auto;
   }
 
   .gallery>div {
     width: 300px;
-    height: 150px;
+    height: 190px;
     background-position: center;
     background-size: cover;
   }
@@ -102,7 +74,7 @@
 
   .spotify-embeds {
     width: 500px;
-    padding: 20px;
+    padding: 10px;
   }
 </style>
 
@@ -115,30 +87,29 @@
     <iframe src="https://open.spotify.com/embed/track/0LZzGrLgxK8e0V6IoAQtd5" width="100%" height="55%" frameborder="0" data-allowtransparency="true" allow="encrypted-media">
     </iframe>
   </div>
-  <a target="_blank" href = "https://www.musixmatch.com/lyrics/Endor-2/Sway"> <img src="https://www.gannett-cdn.com/-mm-/01d95879b5ba1a8851ec6145c82981313bd01c60/c=0-127-2275-1410/local/-/media/Phoenix/ClayThompson/2014/04/11//1397263969000-81333449.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp"></a>
-  </div>
+  <a target="_blank" href="https://www.merriam-webster.com/dictionary/sway"> <img src="https://www.gannett-cdn.com/-mm-/01d95879b5ba1a8851ec6145c82981313bd01c60/c=0-127-2275-1410/local/-/media/Phoenix/ClayThompson/2014/04/11//1397263969000-81333449.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp"></a>
   <div class="spotify-embeds">
     <iframe src="https://open.spotify.com/embed/track/6It7eAXKK59k0skPxWNwP1" width="100%" height="55%" frameborder="0" data-allowtransparency="true" allow="encrypted-media">
     </iframe>
   </div>
-  <div style="background-image: url(https://media.wired.co.uk/photos/606d9c01f19707fe1aef2e63/4:3/w_2664,h_1998,c_limit/egg-insta.jpg)"></div>
+  <a target="_blank" href="https://www.bonappetit.com/story/why-do-we-eat-eggs-for-breakfast"> <img src="https://media.wired.co.uk/photos/606d9c01f19707fe1aef2e63/4:3/w_2664,h_1998,c_limit/egg-insta.jpg"></a>
   <div class="spotify-embeds">
     <iframe src="https://open.spotify.com/embed/track/2sGFufjNzWIVBp5vRR7Sgm" width="100%" height="55%" frameborder="0" data-allowtransparency="true" allow="encrypted-media">
     </iframe>
   </div>
-  <div style="background-image: url(https://s.marketwatch.com/public/resources/images/MW-CL596_china__MP_20140708003622.jpg)"></div>
+  <a target="_blank" href="https://www.youtube.com/watch?v=Zbow21FKJS4&ab_channel=BBC"> <img src="https://s.marketwatch.com/public/resources/images/MW-CL596_china__MP_20140708003622.jpg"></a>
   <div class="spotify-embeds">
     <iframe src="https://open.spotify.com/embed/track/08d1uFAAtQgLbuvyP2AkoH" width="100%" height="55%" frameborder="0" data-allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
-  <div style="background-image: url(https://cdnmetv.metv.com/ptfua-1622124265-3575-blog-Pink%20Panther%20design.jpg)"></div>
+  <a target="_blank" href="https://www.youtube.com/watch?v=ZI8jjbhm4OE&ab_channel=TVTunesQuiz"> <img src="https://cdnmetv.metv.com/ptfua-1622124265-3575-blog-Pink%20Panther%20design.jpg"></a>
   <div class="spotify-embeds">
     <iframe src="https://open.spotify.com/embed/track/7q2rHYIqVRaeQoXiAG7kGm" width="100%" height="55%" frameborder="0" data-allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
-  <div style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png)"></div>
+  <a target="_blank" href="https://www.youtube.com/watch?v=q-Rqdgna3Yw&ab_channel=NollanSmith"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png"></a>
   <div class="spotify-embeds">
     <iframe src="https://open.spotify.com/embed/track/37qV9lhTq40KXUoPLXfGZ6" width="100%" height="55%" frameborder="0" data-allowtransparency="true" allow="encrypted-media"></iframe>
   </div>
-  <div style="background-image: url(https://www.8notes.com/school/png/piano/beethoven_fur_elise_orig001.png)"></div>
+  <a target="_blank" href="https://www.youtube.com/watch?v=_mVW8tgGY_w&ab_channel=GeorgiiCherkin"> <img src="https://www.8notes.com/school/png/piano/beethoven_fur_elise_orig001.png"></a>
   <div class="spotify-embeds">
     <iframe src="https://open.spotify.com/embed/track/3YXIVMQLRRq2K7kxC7UYx6" width="100%" height="55%" frameborder="0" data-allowtransparency="true" allow="encrypted-media"></iframe> </div>
   <div style="background-image: url(https://cdn.history101.com/wp-content/uploads/2018/10/colorized-image-4.jpg)"></div>
