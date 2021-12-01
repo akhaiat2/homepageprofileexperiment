@@ -3,10 +3,21 @@
 </h1>
 <style>
 
+  @keyframes horizontal {
+    0% { left: 0px; }
+    100% { left: calc(100% - 300px); }
+  }
+  
   h1.intro {
     color: rgb(0, 107, 255);
     position: relative;
     font-size: 50px;
+    animation-name: horizontal;
+    animation-delay: 0s, 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
   }
   
   body {
@@ -15,6 +26,7 @@
     background-position: center;
     background-size: cover;
   }
+  
   
   .gallery {
     display: grid;
